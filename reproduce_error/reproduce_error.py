@@ -8,7 +8,7 @@ try:
 
     stable_whisper.encode_video_comparison(
         audio_path,
-        [srt_path],
+        [srt_path, srt_path],
         output_videopath="FileNameTooLong.mp4",
         labels=["FileNameTooLong"],
     )
@@ -27,7 +27,7 @@ try:
 
     stable_whisper.encode_video_comparison(
         audio_path,
-        [srt_path],
+        [srt_path, srt_path],
         output_videopath="FileNotFoundError.mp4",
         labels=["FileNotFoundError"],
     )
