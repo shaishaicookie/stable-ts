@@ -10,7 +10,7 @@ try:
         audio_path,
         [srt_path, srt_path],
         output_videopath="FileNameTooLong.mp4",
-        labels=["FileNameTooLong"],
+        labels=["FileNameTooLong", "FileNameTooLong"],
     )
 except Exception as e:
     print("**** An error occurred ****")
@@ -29,7 +29,7 @@ try:
         audio_path,
         [srt_path, srt_path],
         output_videopath="FileNotFoundError.mp4",
-        labels=["FileNotFoundError"],
+        labels=["FileNotFoundError", "FileNameTooLong"],
     )
 except Exception as e:
     print("**** An error occurred ****")
